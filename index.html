@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CDN FontAwesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
     <title>WorkShop</title>
 </head>
 <body>
-    <h1>WorkShop</h1> 
-    <ul>
-        <li><a href="./pages/pizzeria/pizza.html">La Florentina</a></li>
-        <li><a href="./pages/tableau/tableau.html">Tableaux</a></li>
-    </ul>  
+    <!-- Navbar-->
+    <nav>
+        <a href="#" class="logo">WorkShop</a>
+        <div class="icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </div>
+
+        <ul class="nav-list">
+            <li><a href="./pages/accueil/accueil.html">WorkShop HTML</a></li>
+            <li><a href="#">WorkShop CSS</a></li>
+            <li><a href="#">WorkShop BootStrap</a></li>
+            <li><a href="#">WorkShop JavaScript</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>WorkShop</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quaerat.
+            </h2>
+            <a href="#" class="btn">WorkShop</a>
+        </div>
+        <div class="home-img">
+            <img src="images/media/projects_image.svg" alt="WorkShop">
+        </div>
+    </section>
+
+    <footer>
+        <p>&#169; Fetra A 2021</p>
+    </footer>
 </body>
 </html>
